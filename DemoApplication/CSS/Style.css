@@ -1,0 +1,47 @@
+﻿body {
+    background-color:darkkhaki;
+}
+
+h1{
+    text-align:center;
+}
+
+ul{
+    display:flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+
+#form1{
+    margin:auto;
+}
+
+.control{
+    border-bottom:1px solid green;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.control:last-child {
+    border-bottom: none;
+}
+
+.control span{
+    display:inline-block;
+    width:15%;
+    font-size:22px;
+}
+
+.control input {
+    width: 65%;
+    height:25px;
+}
+.control #btnLogin{
+    width:5%;
+    padding:10px;
+    height:40px;
+    background-color:green;
+    border:none;
+    color:white;
+    margin-left:15%;
+}
